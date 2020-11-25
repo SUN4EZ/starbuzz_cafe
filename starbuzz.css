@@ -5,28 +5,22 @@ body {
 	margin: 0px;
 }
 
-header {
+header.top {
 	background-color: #675c47;
 	margin: 10px 10px 0px 10px;
 	height: 108px;
 }
 
-header img#headerSlogan {
+header.top img#headerSlogan {
 	float: right;
 }
 
-#award {
-	position: absolute;
-	top: 30px;
-	left: 365px;
-}
-
-#tableContainer {
+div#tableContainer {
 	display: table;
 	border-spacing: 10px;
 }
 
-#tableRow {
+div#tableRow {
 	display: table-row;
 }
 
@@ -38,7 +32,7 @@ section#drinks {
 	vertical-align: top;
 }
 
-section#main {
+section#main, section#blog {
 	display: table-cell;
 	background: #efe5d0 url(images/background.gif) top left;
 	font-size: 105%;
